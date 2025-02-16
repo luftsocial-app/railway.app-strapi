@@ -11,21 +11,22 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.1.0",
-    "@strapi/plugin-users-permissions": "5.1.0",
-    "@strapi/provider-upload-cloudinary": "5.1.0",
-    "@strapi/strapi": "5.1.0",
-    "pg": "8.8.0",
+ 
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "strapi-health-plugin": "^1.1.0",
-    "styled-components": "^6.0.0"
+    "@strapi/plugin-cloud": "5.10.2",
+    "@strapi/plugin-users-permissions": "5.10.2",
+    "@strapi/provider-upload-cloudinary": "5.10.2",
+    "@strapi/strapi": "5.10.2",
+    "pg": "8.13.3",
+    "strapi-health-plugin": "^1.1.1",
+    "styled-components": "^6.1.15"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "typescript": "^5"
   },
   "engines": {
