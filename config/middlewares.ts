@@ -7,7 +7,8 @@ export default [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['*']
+      origin: ['*', "http://localhost:3000" ],
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     }
   },
   'strapi::poweredBy',
